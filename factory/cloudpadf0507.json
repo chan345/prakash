@@ -1,0 +1,9 @@
+{
+	"name": "cloudpadf0507",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "55f23fe3-1580-4920-a425-92efa06f93ec",
+		"tenantId": "535ebbb5-a35d-4d96-8d7b-a4d1bdb45d2b"
+	}
+}
