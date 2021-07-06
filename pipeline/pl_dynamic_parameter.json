@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "copydata_devmain_to_main",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
