@@ -1,0 +1,30 @@
+{
+	"name": "DS_cp_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ABS_source",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"ds_param_sourcefolder": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": {
+					"value": "@dataset().ds_param_sourcefolder",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
